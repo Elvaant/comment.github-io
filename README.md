@@ -1,2 +1,2 @@
-# IO.github-io
+# oM.github-io
 My blog
