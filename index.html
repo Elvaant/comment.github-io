@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 
 <html>
 
@@ -12,21 +12,7 @@
     <p>首页</p>
     <a href="./_posts/2017-11-23-first_article.html" >blog第一天</a>
     <a href="./_posts/2017-11-24-react_buglist.html" >react</a>
-    <a href='{{ site.baseurl }}{{ post.url }}'>{{ post.title }}</a>
 
 </body>
 
-</html> -->
-
----
-title: My Blog
-layout: default.html
----
-
-{{ page.title }}
-
-{% for post in site.posts %}
-
-{{ post.date|date_to_string }} <a href='{{ site.baseurl }}{{ post.url }}'>{{ post.title }}</a>
-
-{% endfor %}
+</html>
