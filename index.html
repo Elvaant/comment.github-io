@@ -1,12 +1,18 @@
----
-title: My Blog
-layout: default.html
----
+<!DOCTYPE html>
 
-{{ page.title }}
+<html>
 
-{% for post in site.posts %}
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>首页</title>
+</head>
 
-{{ post.date|date_to_string }} <a href='{{ site.baseurl }}{{ post.url }}'>{{ post.title }}</a>
+<body>
 
-{% endfor %}
+    <p>首页</p>
+    <a href="./_posts/2017-11-23-first_article.html" >blog第一天</a>
+    <a href="./_posts/2017-11-24-react_buglist.html" >react</a>
+
+</body>
+
+</html>
