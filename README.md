@@ -1,2 +1,2 @@
-# oM.github-io
-My blog
+# oM.Blog
+Hi,this is my blog!
